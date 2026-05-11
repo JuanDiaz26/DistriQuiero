@@ -3,13 +3,13 @@ import React from "react";
 const BASE = "https://distriquiero.com/assets/";
 
 const brands = [
-  { src: `${BASE}marca1.png`, alt: "Marca 1" },
-  { src: `${BASE}marca2.png`, alt: "Marca 2" },
-  { src: `${BASE}marca3.png`, alt: "Marca 3" },
-  { src: `${BASE}marca4.png`, alt: "Marca 4" },
-  { src: `${BASE}marca5.png`, alt: "Marca 5" },
-  { src: `${BASE}marca6.png`, alt: "Marca 6" },
-  { src: `${BASE}marca7.png`, alt: "Marca 7" },
+  { src: `${BASE}marolio.png`, alt: "Marolio" },
+  { src: `${BASE}la-serenisima.png`, alt: "La Serenísima" },
+  { src: `${BASE}arcor.png`, alt: "Arcor" },
+  { src: `${BASE}coca-cola.png`, alt: "Coca-Cola" },
+  { src: `${BASE}quilmes.png`, alt: "Quilmes" },
+  { src: `${BASE}unilever.png`, alt: "Unilever" },
+  { src: `${BASE}ayudin.png`, alt: "Ayudín" },
 ];
 
 function BrandCarousel() {
