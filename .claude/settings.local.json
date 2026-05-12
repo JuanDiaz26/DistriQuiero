@@ -9,7 +9,11 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git commit *)",
-      "Bash(copy \"c:\\\\Users\\\\juan_\\\\Downloads\\\\DistriQuiero\\\\src\\\\assets\\\\loguito.ico\" \"c:\\\\Users\\\\juan_\\\\Downloads\\\\DistriQuiero\\\\public\\\\loguito.ico\")"
+      "Bash(copy \"c:\\\\Users\\\\juan_\\\\Downloads\\\\DistriQuiero\\\\src\\\\assets\\\\loguito.ico\" \"c:\\\\Users\\\\juan_\\\\Downloads\\\\DistriQuiero\\\\public\\\\loguito.ico\")",
+      "Bash(cp \"c:/Users/juan_/Downloads/DistriQuiero/src/assets/Portada.png\" \"c:/Users/juan_/Downloads/DistriQuiero/public/og-image.png\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\juan_\\Downloads\\DistriQuiero\\src\\assets"
     ]
   }
 }
