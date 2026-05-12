@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm start *)",
+      "Bash(npx react-scripts *)",
+      "WebFetch(domain:distriquiero.com)",
+      "Bash(curl -s -o /dev/null -w \"%{url_effective} - HTTP %{http_code}\\\\n\" https://distriquiero.com/assets/marca1.png https://distriquiero.com/assets/marca2.png https://distriquiero.com/assets/marca3.png)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git commit *)",
+      "Bash(copy \"c:\\\\Users\\\\juan_\\\\Downloads\\\\DistriQuiero\\\\src\\\\assets\\\\loguito.ico\" \"c:\\\\Users\\\\juan_\\\\Downloads\\\\DistriQuiero\\\\public\\\\loguito.ico\")"
+    ]
+  }
+}
