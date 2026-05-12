@@ -434,7 +434,7 @@ body {
 
 .product-card-img {
   background: linear-gradient(135deg, #FEF2F2, #FEE2E2);
-  height: 180px;
+  height: 210px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -460,7 +460,7 @@ body {
 
 .product-card-img {
   background: linear-gradient(135deg, #FEF2F2, #FEE2E2);
-  height: 180px;
+  height: 210px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -705,8 +705,8 @@ body {
 
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.8rem;
 }
 
 /* ==================== EMPTY STATE ==================== */
@@ -1836,7 +1836,11 @@ body {
 
 @media (max-width: 768px) {
   .hero-section {
-    min-height: 380px;
+    min-height: 420px;
+  }
+
+  .hero-bg {
+    background-position: center 20%;
   }
 
   .hero-ctas {
@@ -1941,7 +1945,11 @@ body {
 
 @media (max-width: 480px) {
   .hero-section {
-    min-height: 320px;
+    min-height: 360px;
+  }
+
+  .hero-bg {
+    background-position: center 15%;
   }
 
   .featured-grid,
