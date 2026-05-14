@@ -10,7 +10,9 @@
       "Bash(git commit -m ' *)",
       "Bash(git commit *)",
       "Bash(copy \"c:\\\\Users\\\\juan_\\\\Downloads\\\\DistriQuiero\\\\src\\\\assets\\\\loguito.ico\" \"c:\\\\Users\\\\juan_\\\\Downloads\\\\DistriQuiero\\\\public\\\\loguito.ico\")",
-      "Bash(cp \"c:/Users/juan_/Downloads/DistriQuiero/src/assets/Portada.png\" \"c:/Users/juan_/Downloads/DistriQuiero/public/og-image.png\")"
+      "Bash(cp \"c:/Users/juan_/Downloads/DistriQuiero/src/assets/Portada.png\" \"c:/Users/juan_/Downloads/DistriQuiero/public/og-image.png\")",
+      "PowerShell(Get-Process node -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Force -ErrorAction SilentlyContinue)"
     ],
     "additionalDirectories": [
       "c:\\Users\\juan_\\Downloads\\DistriQuiero\\src\\assets"

@@ -121,16 +121,16 @@ function Cart({ cart, updateQuantity, removeItem, isOpen, onClose }) {
                 <i className="bi bi-whatsapp"></i>
                 Finalizar por WhatsApp
               </button>
+
+              <button className="btn-seguir-comprando" onClick={onClose}>
+                <i className="bi bi-arrow-left"></i>
+                Seguir comprando
+              </button>
             </>
           )}
         </div>
 
-        <div className="cart-drawer-footer">
-          <button className="btn-seguir-comprando" onClick={onClose}>
-            <i className="bi bi-arrow-left"></i>
-            Seguir comprando
-          </button>
-        </div>
+        <div className="cart-drawer-footer"></div>
       </div>
     </>
   );
